@@ -2,8 +2,6 @@
 
 /** @var \Laravel\Lumen\Routing\Router $router */
 
-use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -17,9 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 $router->get('/', function () use ($router) {
     return $router->app->version();
-});
-
-
-Route::get('/home', function() {
-    return ' ola Mundo! ';
 });

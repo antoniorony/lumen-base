@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
+class ComposerStaticInit17d1d4371c7764984f7ba37e3ab0de9e
 {
     public static $files = array (
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
@@ -13,20 +13,19 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
-        '60799491728b879e74601d83e38b2cad' => __DIR__ . '/..' . '/illuminate/collections/helpers.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+        '60799491728b879e74601d83e38b2cad' => __DIR__ . '/..' . '/illuminate/collections/helpers.php',
+        '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
+        'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
-        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'ef65a1626449d89d0811cf9befce46f0' => __DIR__ . '/..' . '/illuminate/events/functions.php',
-        '23c18046f52bef3eea034657bafda50f' => __DIR__ . '/..' . '/symfony/polyfill-php81/bootstrap.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
-        '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
-        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
         '35a6ad97d21e794e7e22a17d806652e4' => __DIR__ . '/..' . '/nunomaduro/termwind/src/Functions.php',
-        'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
+        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'bee9632da3ca00a99623b9c35d0c4f8b' => __DIR__ . '/..' . '/laravel/lumen-framework/src/helpers.php',
     );
 
@@ -41,13 +40,11 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         ),
         'T' => 
         array (
-            'Tymon\\JWTAuth\\' => 14,
             'Tests\\' => 6,
             'Termwind\\' => 9,
         ),
         'S' => 
         array (
-            'Symfony\\Polyfill\\Php81\\' => 23,
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Polyfill\\Php72\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
@@ -69,7 +66,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\ErrorHandler\\' => 31,
             'Symfony\\Component\\Console\\' => 26,
-            'StellaMaris\\Clock\\' => 18,
         ),
         'R' => 
         array (
@@ -82,13 +78,8 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
             'Psr\\Log\\' => 8,
             'Psr\\EventDispatcher\\' => 20,
             'Psr\\Container\\' => 14,
-            'Psr\\Clock\\' => 10,
             'PhpParser\\' => 10,
             'PhpOption\\' => 10,
-        ),
-        'N' => 
-        array (
-            'Namshi\\JOSE\\' => 12,
         ),
         'M' => 
         array (
@@ -96,8 +87,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         ),
         'L' => 
         array (
-            'Lcobucci\\JWT\\' => 13,
-            'Lcobucci\\Clock\\' => 15,
             'Laravel\\SerializableClosure\\' => 28,
             'Laravel\\Lumen\\' => 14,
         ),
@@ -147,6 +136,7 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
             'Dotenv\\' => 7,
             'Doctrine\\Instantiator\\' => 22,
             'Doctrine\\Inflector\\' => 19,
+            'Doctrine\\Deprecations\\' => 22,
             'Doctrine\\Common\\Lexer\\' => 22,
             'DeepCopy\\' => 9,
             'Database\\Seeders\\' => 17,
@@ -155,7 +145,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         'C' => 
         array (
             'Cron\\' => 5,
-            'Chuckrincon\\LumenConfigDiscover\\' => 32,
             'Carbon\\' => 7,
         ),
         'B' => 
@@ -177,10 +166,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
-        'Tymon\\JWTAuth\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/tymon/jwt-auth/src',
-        ),
         'Tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/tests',
@@ -188,10 +173,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         'Termwind\\' => 
         array (
             0 => __DIR__ . '/..' . '/nunomaduro/termwind/src',
-        ),
-        'Symfony\\Polyfill\\Php81\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-php81',
         ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
@@ -277,10 +258,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
         ),
-        'StellaMaris\\Clock\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/stella-maris/clock/src',
-        ),
         'Ramsey\\Uuid\\' => 
         array (
             0 => __DIR__ . '/..' . '/ramsey/uuid/src',
@@ -305,10 +282,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
-        'Psr\\Clock\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/clock/src',
-        ),
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
@@ -317,21 +290,9 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         array (
             0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
         ),
-        'Namshi\\JOSE\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE',
-        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
-        ),
-        'Lcobucci\\JWT\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/lcobucci/jwt/src',
-        ),
-        'Lcobucci\\Clock\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/lcobucci/clock/src',
         ),
         'Laravel\\SerializableClosure\\' => 
         array (
@@ -359,9 +320,9 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         ),
         'Illuminate\\Support\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/collections',
-            1 => __DIR__ . '/..' . '/illuminate/conditionable',
-            2 => __DIR__ . '/..' . '/illuminate/macroable',
+            0 => __DIR__ . '/..' . '/illuminate/conditionable',
+            1 => __DIR__ . '/..' . '/illuminate/macroable',
+            2 => __DIR__ . '/..' . '/illuminate/collections',
             3 => __DIR__ . '/..' . '/illuminate/support',
         ),
         'Illuminate\\Session\\' => 
@@ -472,9 +433,13 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         array (
             0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Inflector',
         ),
+        'Doctrine\\Deprecations\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/deprecations/lib/Doctrine/Deprecations',
+        ),
         'Doctrine\\Common\\Lexer\\' => 
         array (
-            0 => __DIR__ . '/..' . '/doctrine/lexer/lib/Doctrine/Common/Lexer',
+            0 => __DIR__ . '/..' . '/doctrine/lexer/src',
         ),
         'DeepCopy\\' => 
         array (
@@ -491,10 +456,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         'Cron\\' => 
         array (
             0 => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron',
-        ),
-        'Chuckrincon\\LumenConfigDiscover\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/chuckrincon/lumen-config-discover/src',
         ),
         'Carbon\\' => 
         array (
@@ -601,6 +562,7 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         'Carbon\\FactoryImmutable' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/FactoryImmutable.php',
         'Carbon\\Language' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Language.php',
         'Carbon\\Laravel\\ServiceProvider' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php',
+        'Carbon\\MessageFormatter\\MessageFormatterMapper' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/MessageFormatter/MessageFormatterMapper.php',
         'Carbon\\PHPStan\\AbstractMacro' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/PHPStan/AbstractMacro.php',
         'Carbon\\PHPStan\\Macro' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/PHPStan/Macro.php',
         'Carbon\\PHPStan\\MacroExtension' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php',
@@ -633,7 +595,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         'Carbon\\Translator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Translator.php',
         'Carbon\\TranslatorImmutable' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/TranslatorImmutable.php',
         'Carbon\\TranslatorStrongTypeInterface' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/TranslatorStrongTypeInterface.php',
-        'Chuckrincon\\LumenConfigDiscover\\DiscoverServiceProvider' => __DIR__ . '/..' . '/chuckrincon/lumen-config-discover/src/DiscoverServiceProvider.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/CronExpression.php',
@@ -647,7 +608,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         'Cron\\MonthField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
         'Database\\Factories\\UserFactory' => __DIR__ . '/../..' . '/database/factories/UserFactory.php',
         'Database\\Seeders\\DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeders/DatabaseSeeder.php',
-        'Database\\Seeders\\UsersTableSeeder' => __DIR__ . '/../..' . '/database/seeders/UsersTableSeeder.php',
         'DeepCopy\\DeepCopy' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
         'DeepCopy\\Exception\\CloneException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
         'DeepCopy\\Exception\\PropertyException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',
@@ -672,7 +632,10 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         'DeepCopy\\TypeFilter\\Spl\\SplDoublyLinkedListFilter' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/TypeFilter/Spl/SplDoublyLinkedListFilter.php',
         'DeepCopy\\TypeFilter\\TypeFilter' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/TypeFilter/TypeFilter.php',
         'DeepCopy\\TypeMatcher\\TypeMatcher' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/TypeMatcher/TypeMatcher.php',
-        'Doctrine\\Common\\Lexer\\AbstractLexer' => __DIR__ . '/..' . '/doctrine/lexer/lib/Doctrine/Common/Lexer/AbstractLexer.php',
+        'Doctrine\\Common\\Lexer\\AbstractLexer' => __DIR__ . '/..' . '/doctrine/lexer/src/AbstractLexer.php',
+        'Doctrine\\Common\\Lexer\\Token' => __DIR__ . '/..' . '/doctrine/lexer/src/Token.php',
+        'Doctrine\\Deprecations\\Deprecation' => __DIR__ . '/..' . '/doctrine/deprecations/lib/Doctrine/Deprecations/Deprecation.php',
+        'Doctrine\\Deprecations\\PHPUnit\\VerifyDeprecations' => __DIR__ . '/..' . '/doctrine/deprecations/lib/Doctrine/Deprecations/PHPUnit/VerifyDeprecations.php',
         'Doctrine\\Inflector\\CachedWordInflector' => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Inflector/CachedWordInflector.php',
         'Doctrine\\Inflector\\GenericLanguageInflectorFactory' => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Inflector/GenericLanguageInflectorFactory.php',
         'Doctrine\\Inflector\\Inflector' => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Inflector/Inflector.php',
@@ -1230,7 +1193,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         'Faker\\Provider\\nl_BE\\Payment' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Provider/nl_BE/Payment.php',
         'Faker\\Provider\\nl_BE\\Person' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Provider/nl_BE/Person.php',
         'Faker\\Provider\\nl_BE\\PhoneNumber' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Provider/nl_BE/PhoneNumber.php',
-        'Faker\\Provider\\nl_BE\\Text' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Provider/nl_BE/Text.php',
         'Faker\\Provider\\nl_NL\\Address' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Provider/nl_NL/Address.php',
         'Faker\\Provider\\nl_NL\\Color' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Provider/nl_NL/Color.php',
         'Faker\\Provider\\nl_NL\\Company' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Provider/nl_NL/Company.php',
@@ -2363,92 +2325,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         'Laravel\\SerializableClosure\\Support\\ClosureStream' => __DIR__ . '/..' . '/laravel/serializable-closure/src/Support/ClosureStream.php',
         'Laravel\\SerializableClosure\\Support\\ReflectionClosure' => __DIR__ . '/..' . '/laravel/serializable-closure/src/Support/ReflectionClosure.php',
         'Laravel\\SerializableClosure\\Support\\SelfReference' => __DIR__ . '/..' . '/laravel/serializable-closure/src/Support/SelfReference.php',
-        'Lcobucci\\Clock\\Clock' => __DIR__ . '/..' . '/lcobucci/clock/src/Clock.php',
-        'Lcobucci\\Clock\\FrozenClock' => __DIR__ . '/..' . '/lcobucci/clock/src/FrozenClock.php',
-        'Lcobucci\\Clock\\SystemClock' => __DIR__ . '/..' . '/lcobucci/clock/src/SystemClock.php',
-        'Lcobucci\\JWT\\Builder' => __DIR__ . '/..' . '/lcobucci/jwt/src/Builder.php',
-        'Lcobucci\\JWT\\ClaimsFormatter' => __DIR__ . '/..' . '/lcobucci/jwt/src/ClaimsFormatter.php',
-        'Lcobucci\\JWT\\Configuration' => __DIR__ . '/..' . '/lcobucci/jwt/src/Configuration.php',
-        'Lcobucci\\JWT\\Decoder' => __DIR__ . '/..' . '/lcobucci/jwt/src/Decoder.php',
-        'Lcobucci\\JWT\\Encoder' => __DIR__ . '/..' . '/lcobucci/jwt/src/Encoder.php',
-        'Lcobucci\\JWT\\Encoding\\CannotDecodeContent' => __DIR__ . '/..' . '/lcobucci/jwt/src/Encoding/CannotDecodeContent.php',
-        'Lcobucci\\JWT\\Encoding\\CannotEncodeContent' => __DIR__ . '/..' . '/lcobucci/jwt/src/Encoding/CannotEncodeContent.php',
-        'Lcobucci\\JWT\\Encoding\\ChainedFormatter' => __DIR__ . '/..' . '/lcobucci/jwt/src/Encoding/ChainedFormatter.php',
-        'Lcobucci\\JWT\\Encoding\\JoseEncoder' => __DIR__ . '/..' . '/lcobucci/jwt/src/Encoding/JoseEncoder.php',
-        'Lcobucci\\JWT\\Encoding\\MicrosecondBasedDateConversion' => __DIR__ . '/..' . '/lcobucci/jwt/src/Encoding/MicrosecondBasedDateConversion.php',
-        'Lcobucci\\JWT\\Encoding\\UnifyAudience' => __DIR__ . '/..' . '/lcobucci/jwt/src/Encoding/UnifyAudience.php',
-        'Lcobucci\\JWT\\Encoding\\UnixTimestampDates' => __DIR__ . '/..' . '/lcobucci/jwt/src/Encoding/UnixTimestampDates.php',
-        'Lcobucci\\JWT\\Exception' => __DIR__ . '/..' . '/lcobucci/jwt/src/Exception.php',
-        'Lcobucci\\JWT\\JwtFacade' => __DIR__ . '/..' . '/lcobucci/jwt/src/JwtFacade.php',
-        'Lcobucci\\JWT\\Parser' => __DIR__ . '/..' . '/lcobucci/jwt/src/Parser.php',
-        'Lcobucci\\JWT\\Signer' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer.php',
-        'Lcobucci\\JWT\\Signer\\Blake2b' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Blake2b.php',
-        'Lcobucci\\JWT\\Signer\\CannotSignPayload' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/CannotSignPayload.php',
-        'Lcobucci\\JWT\\Signer\\Ecdsa' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Ecdsa.php',
-        'Lcobucci\\JWT\\Signer\\Ecdsa\\ConversionFailed' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Ecdsa/ConversionFailed.php',
-        'Lcobucci\\JWT\\Signer\\Ecdsa\\MultibyteStringConverter' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Ecdsa/MultibyteStringConverter.php',
-        'Lcobucci\\JWT\\Signer\\Ecdsa\\Sha256' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Ecdsa/Sha256.php',
-        'Lcobucci\\JWT\\Signer\\Ecdsa\\Sha384' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Ecdsa/Sha384.php',
-        'Lcobucci\\JWT\\Signer\\Ecdsa\\Sha512' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Ecdsa/Sha512.php',
-        'Lcobucci\\JWT\\Signer\\Ecdsa\\SignatureConverter' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Ecdsa/SignatureConverter.php',
-        'Lcobucci\\JWT\\Signer\\Ecdsa\\UnsafeSha256' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Ecdsa/UnsafeSha256.php',
-        'Lcobucci\\JWT\\Signer\\Ecdsa\\UnsafeSha384' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Ecdsa/UnsafeSha384.php',
-        'Lcobucci\\JWT\\Signer\\Ecdsa\\UnsafeSha512' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Ecdsa/UnsafeSha512.php',
-        'Lcobucci\\JWT\\Signer\\Eddsa' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Eddsa.php',
-        'Lcobucci\\JWT\\Signer\\Hmac' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Hmac.php',
-        'Lcobucci\\JWT\\Signer\\Hmac\\Sha256' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Hmac/Sha256.php',
-        'Lcobucci\\JWT\\Signer\\Hmac\\Sha384' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Hmac/Sha384.php',
-        'Lcobucci\\JWT\\Signer\\Hmac\\Sha512' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Hmac/Sha512.php',
-        'Lcobucci\\JWT\\Signer\\Hmac\\UnsafeSha256' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Hmac/UnsafeSha256.php',
-        'Lcobucci\\JWT\\Signer\\Hmac\\UnsafeSha384' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Hmac/UnsafeSha384.php',
-        'Lcobucci\\JWT\\Signer\\Hmac\\UnsafeSha512' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Hmac/UnsafeSha512.php',
-        'Lcobucci\\JWT\\Signer\\InvalidKeyProvided' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/InvalidKeyProvided.php',
-        'Lcobucci\\JWT\\Signer\\Key' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Key.php',
-        'Lcobucci\\JWT\\Signer\\Key\\FileCouldNotBeRead' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Key/FileCouldNotBeRead.php',
-        'Lcobucci\\JWT\\Signer\\Key\\InMemory' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Key/InMemory.php',
-        'Lcobucci\\JWT\\Signer\\Key\\LocalFileReference' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Key/LocalFileReference.php',
-        'Lcobucci\\JWT\\Signer\\None' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/None.php',
-        'Lcobucci\\JWT\\Signer\\OpenSSL' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/OpenSSL.php',
-        'Lcobucci\\JWT\\Signer\\Rsa' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Rsa.php',
-        'Lcobucci\\JWT\\Signer\\Rsa\\Sha256' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Rsa/Sha256.php',
-        'Lcobucci\\JWT\\Signer\\Rsa\\Sha384' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Rsa/Sha384.php',
-        'Lcobucci\\JWT\\Signer\\Rsa\\Sha512' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Rsa/Sha512.php',
-        'Lcobucci\\JWT\\Signer\\Rsa\\UnsafeSha256' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Rsa/UnsafeSha256.php',
-        'Lcobucci\\JWT\\Signer\\Rsa\\UnsafeSha384' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Rsa/UnsafeSha384.php',
-        'Lcobucci\\JWT\\Signer\\Rsa\\UnsafeSha512' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/Rsa/UnsafeSha512.php',
-        'Lcobucci\\JWT\\Signer\\UnsafeEcdsa' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/UnsafeEcdsa.php',
-        'Lcobucci\\JWT\\Signer\\UnsafeRsa' => __DIR__ . '/..' . '/lcobucci/jwt/src/Signer/UnsafeRsa.php',
-        'Lcobucci\\JWT\\SodiumBase64Polyfill' => __DIR__ . '/..' . '/lcobucci/jwt/src/SodiumBase64Polyfill.php',
-        'Lcobucci\\JWT\\Token' => __DIR__ . '/..' . '/lcobucci/jwt/src/Token.php',
-        'Lcobucci\\JWT\\Token\\Builder' => __DIR__ . '/..' . '/lcobucci/jwt/src/Token/Builder.php',
-        'Lcobucci\\JWT\\Token\\DataSet' => __DIR__ . '/..' . '/lcobucci/jwt/src/Token/DataSet.php',
-        'Lcobucci\\JWT\\Token\\InvalidTokenStructure' => __DIR__ . '/..' . '/lcobucci/jwt/src/Token/InvalidTokenStructure.php',
-        'Lcobucci\\JWT\\Token\\Parser' => __DIR__ . '/..' . '/lcobucci/jwt/src/Token/Parser.php',
-        'Lcobucci\\JWT\\Token\\Plain' => __DIR__ . '/..' . '/lcobucci/jwt/src/Token/Plain.php',
-        'Lcobucci\\JWT\\Token\\RegisteredClaimGiven' => __DIR__ . '/..' . '/lcobucci/jwt/src/Token/RegisteredClaimGiven.php',
-        'Lcobucci\\JWT\\Token\\RegisteredClaims' => __DIR__ . '/..' . '/lcobucci/jwt/src/Token/RegisteredClaims.php',
-        'Lcobucci\\JWT\\Token\\Signature' => __DIR__ . '/..' . '/lcobucci/jwt/src/Token/Signature.php',
-        'Lcobucci\\JWT\\Token\\UnsupportedHeaderFound' => __DIR__ . '/..' . '/lcobucci/jwt/src/Token/UnsupportedHeaderFound.php',
-        'Lcobucci\\JWT\\UnencryptedToken' => __DIR__ . '/..' . '/lcobucci/jwt/src/UnencryptedToken.php',
-        'Lcobucci\\JWT\\Validation\\Constraint' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validation/Constraint.php',
-        'Lcobucci\\JWT\\Validation\\ConstraintViolation' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validation/ConstraintViolation.php',
-        'Lcobucci\\JWT\\Validation\\Constraint\\CannotValidateARegisteredClaim' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validation/Constraint/CannotValidateARegisteredClaim.php',
-        'Lcobucci\\JWT\\Validation\\Constraint\\HasClaimWithValue' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validation/Constraint/HasClaimWithValue.php',
-        'Lcobucci\\JWT\\Validation\\Constraint\\IdentifiedBy' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validation/Constraint/IdentifiedBy.php',
-        'Lcobucci\\JWT\\Validation\\Constraint\\IssuedBy' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validation/Constraint/IssuedBy.php',
-        'Lcobucci\\JWT\\Validation\\Constraint\\LeewayCannotBeNegative' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validation/Constraint/LeewayCannotBeNegative.php',
-        'Lcobucci\\JWT\\Validation\\Constraint\\LooseValidAt' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validation/Constraint/LooseValidAt.php',
-        'Lcobucci\\JWT\\Validation\\Constraint\\PermittedFor' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validation/Constraint/PermittedFor.php',
-        'Lcobucci\\JWT\\Validation\\Constraint\\RelatedTo' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validation/Constraint/RelatedTo.php',
-        'Lcobucci\\JWT\\Validation\\Constraint\\SignedWith' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validation/Constraint/SignedWith.php',
-        'Lcobucci\\JWT\\Validation\\Constraint\\StrictValidAt' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validation/Constraint/StrictValidAt.php',
-        'Lcobucci\\JWT\\Validation\\Constraint\\ValidAt' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validation/Constraint/ValidAt.php',
-        'Lcobucci\\JWT\\Validation\\NoConstraintsGiven' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validation/NoConstraintsGiven.php',
-        'Lcobucci\\JWT\\Validation\\RequiredConstraintsViolated' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validation/RequiredConstraintsViolated.php',
-        'Lcobucci\\JWT\\Validation\\SignedWith' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validation/SignedWith.php',
-        'Lcobucci\\JWT\\Validation\\ValidAt' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validation/ValidAt.php',
-        'Lcobucci\\JWT\\Validation\\Validator' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validation/Validator.php',
-        'Lcobucci\\JWT\\Validator' => __DIR__ . '/..' . '/lcobucci/jwt/src/Validator.php',
         'Mockery' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegrationAssertPostConditions' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegrationAssertPostConditions.php',
@@ -2651,32 +2527,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         'Monolog\\SignalHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/SignalHandler.php',
         'Monolog\\Test\\TestCase' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Test/TestCase.php',
         'Monolog\\Utils' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Utils.php',
-        'Namshi\\JOSE\\Base64\\Base64Encoder' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Base64/Base64Encoder.php',
-        'Namshi\\JOSE\\Base64\\Base64UrlSafeEncoder' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Base64/Base64UrlSafeEncoder.php',
-        'Namshi\\JOSE\\Base64\\Encoder' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Base64/Encoder.php',
-        'Namshi\\JOSE\\JWS' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/JWS.php',
-        'Namshi\\JOSE\\JWT' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/JWT.php',
-        'Namshi\\JOSE\\Signer\\OpenSSL\\ECDSA' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/ECDSA.php',
-        'Namshi\\JOSE\\Signer\\OpenSSL\\ES256' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/ES256.php',
-        'Namshi\\JOSE\\Signer\\OpenSSL\\ES384' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/ES384.php',
-        'Namshi\\JOSE\\Signer\\OpenSSL\\ES512' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/ES512.php',
-        'Namshi\\JOSE\\Signer\\OpenSSL\\HMAC' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/HMAC.php',
-        'Namshi\\JOSE\\Signer\\OpenSSL\\HS256' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/HS256.php',
-        'Namshi\\JOSE\\Signer\\OpenSSL\\HS384' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/HS384.php',
-        'Namshi\\JOSE\\Signer\\OpenSSL\\HS512' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/HS512.php',
-        'Namshi\\JOSE\\Signer\\OpenSSL\\None' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/None.php',
-        'Namshi\\JOSE\\Signer\\OpenSSL\\PublicKey' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/PublicKey.php',
-        'Namshi\\JOSE\\Signer\\OpenSSL\\RS256' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/RS256.php',
-        'Namshi\\JOSE\\Signer\\OpenSSL\\RS384' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/RS384.php',
-        'Namshi\\JOSE\\Signer\\OpenSSL\\RS512' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/RS512.php',
-        'Namshi\\JOSE\\Signer\\OpenSSL\\RSA' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/RSA.php',
-        'Namshi\\JOSE\\Signer\\SecLib\\PublicKey' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/SecLib/PublicKey.php',
-        'Namshi\\JOSE\\Signer\\SecLib\\RS256' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/SecLib/RS256.php',
-        'Namshi\\JOSE\\Signer\\SecLib\\RS384' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/SecLib/RS384.php',
-        'Namshi\\JOSE\\Signer\\SecLib\\RS512' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/SecLib/RS512.php',
-        'Namshi\\JOSE\\Signer\\SecLib\\RSA' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/SecLib/RSA.php',
-        'Namshi\\JOSE\\Signer\\SignerInterface' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/SignerInterface.php',
-        'Namshi\\JOSE\\SimpleJWS' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/SimpleJWS.php',
         'Normalizer' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\ActualValueIsNotAnObjectException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/ActualValueIsNotAnObjectException.php',
@@ -3351,7 +3201,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         'PhpParser\\PrettyPrinterAbstract' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php',
         'PhpParser\\PrettyPrinter\\Standard' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php',
         'PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
-        'Psr\\Clock\\ClockInterface' => __DIR__ . '/..' . '/psr/clock/src/ClockInterface.php',
         'Psr\\Container\\ContainerExceptionInterface' => __DIR__ . '/..' . '/psr/container/src/ContainerExceptionInterface.php',
         'Psr\\Container\\ContainerInterface' => __DIR__ . '/..' . '/psr/container/src/ContainerInterface.php',
         'Psr\\Container\\NotFoundExceptionInterface' => __DIR__ . '/..' . '/psr/container/src/NotFoundExceptionInterface.php',
@@ -3377,13 +3226,13 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         'Ramsey\\Collection\\CollectionInterface' => __DIR__ . '/..' . '/ramsey/collection/src/CollectionInterface.php',
         'Ramsey\\Collection\\DoubleEndedQueue' => __DIR__ . '/..' . '/ramsey/collection/src/DoubleEndedQueue.php',
         'Ramsey\\Collection\\DoubleEndedQueueInterface' => __DIR__ . '/..' . '/ramsey/collection/src/DoubleEndedQueueInterface.php',
+        'Ramsey\\Collection\\Exception\\CollectionException' => __DIR__ . '/..' . '/ramsey/collection/src/Exception/CollectionException.php',
         'Ramsey\\Collection\\Exception\\CollectionMismatchException' => __DIR__ . '/..' . '/ramsey/collection/src/Exception/CollectionMismatchException.php',
         'Ramsey\\Collection\\Exception\\InvalidArgumentException' => __DIR__ . '/..' . '/ramsey/collection/src/Exception/InvalidArgumentException.php',
-        'Ramsey\\Collection\\Exception\\InvalidSortOrderException' => __DIR__ . '/..' . '/ramsey/collection/src/Exception/InvalidSortOrderException.php',
+        'Ramsey\\Collection\\Exception\\InvalidPropertyOrMethod' => __DIR__ . '/..' . '/ramsey/collection/src/Exception/InvalidPropertyOrMethod.php',
         'Ramsey\\Collection\\Exception\\NoSuchElementException' => __DIR__ . '/..' . '/ramsey/collection/src/Exception/NoSuchElementException.php',
         'Ramsey\\Collection\\Exception\\OutOfBoundsException' => __DIR__ . '/..' . '/ramsey/collection/src/Exception/OutOfBoundsException.php',
         'Ramsey\\Collection\\Exception\\UnsupportedOperationException' => __DIR__ . '/..' . '/ramsey/collection/src/Exception/UnsupportedOperationException.php',
-        'Ramsey\\Collection\\Exception\\ValueExtractionException' => __DIR__ . '/..' . '/ramsey/collection/src/Exception/ValueExtractionException.php',
         'Ramsey\\Collection\\GenericArray' => __DIR__ . '/..' . '/ramsey/collection/src/GenericArray.php',
         'Ramsey\\Collection\\Map\\AbstractMap' => __DIR__ . '/..' . '/ramsey/collection/src/Map/AbstractMap.php',
         'Ramsey\\Collection\\Map\\AbstractTypedMap' => __DIR__ . '/..' . '/ramsey/collection/src/Map/AbstractTypedMap.php',
@@ -3510,7 +3359,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         'Ramsey\\Uuid\\UuidInterface' => __DIR__ . '/..' . '/ramsey/uuid/src/UuidInterface.php',
         'Ramsey\\Uuid\\Validator\\GenericValidator' => __DIR__ . '/..' . '/ramsey/uuid/src/Validator/GenericValidator.php',
         'Ramsey\\Uuid\\Validator\\ValidatorInterface' => __DIR__ . '/..' . '/ramsey/uuid/src/Validator/ValidatorInterface.php',
-        'ReturnTypeWillChange' => __DIR__ . '/..' . '/symfony/polyfill-php81/Resources/stubs/ReturnTypeWillChange.php',
         'SebastianBergmann\\CliParser\\AmbiguousOptionException' => __DIR__ . '/..' . '/sebastian/cli-parser/src/exceptions/AmbiguousOptionException.php',
         'SebastianBergmann\\CliParser\\Exception' => __DIR__ . '/..' . '/sebastian/cli-parser/src/exceptions/Exception.php',
         'SebastianBergmann\\CliParser\\OptionDoesNotAllowArgumentException' => __DIR__ . '/..' . '/sebastian/cli-parser/src/exceptions/OptionDoesNotAllowArgumentException.php',
@@ -3711,7 +3559,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         'SebastianBergmann\\Type\\UnknownType' => __DIR__ . '/..' . '/sebastian/type/src/type/UnknownType.php',
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/type/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
-        'StellaMaris\\Clock\\ClockInterface' => __DIR__ . '/..' . '/stella-maris/clock/src/ClockInterface.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\Attribute\\AsCommand' => __DIR__ . '/..' . '/symfony/console/Attribute/AsCommand.php',
@@ -3798,7 +3645,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         'Symfony\\Component\\Console\\Input\\StreamableInputInterface' => __DIR__ . '/..' . '/symfony/console/Input/StreamableInputInterface.php',
         'Symfony\\Component\\Console\\Input\\StringInput' => __DIR__ . '/..' . '/symfony/console/Input/StringInput.php',
         'Symfony\\Component\\Console\\Logger\\ConsoleLogger' => __DIR__ . '/..' . '/symfony/console/Logger/ConsoleLogger.php',
-        'Symfony\\Component\\Console\\Output\\AnsiColorMode' => __DIR__ . '/..' . '/symfony/console/Output/AnsiColorMode.php',
         'Symfony\\Component\\Console\\Output\\BufferedOutput' => __DIR__ . '/..' . '/symfony/console/Output/BufferedOutput.php',
         'Symfony\\Component\\Console\\Output\\ConsoleOutput' => __DIR__ . '/..' . '/symfony/console/Output/ConsoleOutput.php',
         'Symfony\\Component\\Console\\Output\\ConsoleOutputInterface' => __DIR__ . '/..' . '/symfony/console/Output/ConsoleOutputInterface.php',
@@ -4412,7 +4258,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         'Symfony\\Polyfill\\Php72\\Php72' => __DIR__ . '/..' . '/symfony/polyfill-php72/Php72.php',
         'Symfony\\Polyfill\\Php80\\Php80' => __DIR__ . '/..' . '/symfony/polyfill-php80/Php80.php',
         'Symfony\\Polyfill\\Php80\\PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/PhpToken.php',
-        'Symfony\\Polyfill\\Php81\\Php81' => __DIR__ . '/..' . '/symfony/polyfill-php81/Php81.php',
         'Termwind\\Actions\\StyleToMethod' => __DIR__ . '/..' . '/nunomaduro/termwind/src/Actions/StyleToMethod.php',
         'Termwind\\Components\\Anchor' => __DIR__ . '/..' . '/nunomaduro/termwind/src/Components/Anchor.php',
         'Termwind\\Components\\BreakLine' => __DIR__ . '/..' . '/nunomaduro/termwind/src/Components/BreakLine.php',
@@ -4458,71 +4303,6 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
         'TheSeer\\Tokenizer\\TokenCollectionException' => __DIR__ . '/..' . '/theseer/tokenizer/src/TokenCollectionException.php',
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
-        'Tymon\\JWTAuth\\Blacklist' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Blacklist.php',
-        'Tymon\\JWTAuth\\Claims\\Audience' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/Audience.php',
-        'Tymon\\JWTAuth\\Claims\\Claim' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/Claim.php',
-        'Tymon\\JWTAuth\\Claims\\Collection' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/Collection.php',
-        'Tymon\\JWTAuth\\Claims\\Custom' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/Custom.php',
-        'Tymon\\JWTAuth\\Claims\\DatetimeTrait' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/DatetimeTrait.php',
-        'Tymon\\JWTAuth\\Claims\\Expiration' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/Expiration.php',
-        'Tymon\\JWTAuth\\Claims\\Factory' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/Factory.php',
-        'Tymon\\JWTAuth\\Claims\\IssuedAt' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/IssuedAt.php',
-        'Tymon\\JWTAuth\\Claims\\Issuer' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/Issuer.php',
-        'Tymon\\JWTAuth\\Claims\\JwtId' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/JwtId.php',
-        'Tymon\\JWTAuth\\Claims\\NotBefore' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/NotBefore.php',
-        'Tymon\\JWTAuth\\Claims\\Subject' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/Subject.php',
-        'Tymon\\JWTAuth\\Console\\JWTGenerateSecretCommand' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Console/JWTGenerateSecretCommand.php',
-        'Tymon\\JWTAuth\\Contracts\\Claim' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Contracts/Claim.php',
-        'Tymon\\JWTAuth\\Contracts\\Http\\Parser' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Contracts/Http/Parser.php',
-        'Tymon\\JWTAuth\\Contracts\\JWTSubject' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Contracts/JWTSubject.php',
-        'Tymon\\JWTAuth\\Contracts\\Providers\\Auth' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Contracts/Providers/Auth.php',
-        'Tymon\\JWTAuth\\Contracts\\Providers\\JWT' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Contracts/Providers/JWT.php',
-        'Tymon\\JWTAuth\\Contracts\\Providers\\Storage' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Contracts/Providers/Storage.php',
-        'Tymon\\JWTAuth\\Contracts\\Validator' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Contracts/Validator.php',
-        'Tymon\\JWTAuth\\Exceptions\\InvalidClaimException' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Exceptions/InvalidClaimException.php',
-        'Tymon\\JWTAuth\\Exceptions\\JWTException' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Exceptions/JWTException.php',
-        'Tymon\\JWTAuth\\Exceptions\\PayloadException' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Exceptions/PayloadException.php',
-        'Tymon\\JWTAuth\\Exceptions\\TokenBlacklistedException' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Exceptions/TokenBlacklistedException.php',
-        'Tymon\\JWTAuth\\Exceptions\\TokenExpiredException' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Exceptions/TokenExpiredException.php',
-        'Tymon\\JWTAuth\\Exceptions\\TokenInvalidException' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Exceptions/TokenInvalidException.php',
-        'Tymon\\JWTAuth\\Exceptions\\UserNotDefinedException' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Exceptions/UserNotDefinedException.php',
-        'Tymon\\JWTAuth\\Facades\\JWTAuth' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Facades/JWTAuth.php',
-        'Tymon\\JWTAuth\\Facades\\JWTFactory' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Facades/JWTFactory.php',
-        'Tymon\\JWTAuth\\Facades\\JWTProvider' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Facades/JWTProvider.php',
-        'Tymon\\JWTAuth\\Factory' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Factory.php',
-        'Tymon\\JWTAuth\\Http\\Middleware\\Authenticate' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Http/Middleware/Authenticate.php',
-        'Tymon\\JWTAuth\\Http\\Middleware\\AuthenticateAndRenew' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Http/Middleware/AuthenticateAndRenew.php',
-        'Tymon\\JWTAuth\\Http\\Middleware\\BaseMiddleware' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Http/Middleware/BaseMiddleware.php',
-        'Tymon\\JWTAuth\\Http\\Middleware\\Check' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Http/Middleware/Check.php',
-        'Tymon\\JWTAuth\\Http\\Middleware\\RefreshToken' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Http/Middleware/RefreshToken.php',
-        'Tymon\\JWTAuth\\Http\\Parser\\AuthHeaders' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Http/Parser/AuthHeaders.php',
-        'Tymon\\JWTAuth\\Http\\Parser\\Cookies' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Http/Parser/Cookies.php',
-        'Tymon\\JWTAuth\\Http\\Parser\\InputSource' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Http/Parser/InputSource.php',
-        'Tymon\\JWTAuth\\Http\\Parser\\KeyTrait' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Http/Parser/KeyTrait.php',
-        'Tymon\\JWTAuth\\Http\\Parser\\LumenRouteParams' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Http/Parser/LumenRouteParams.php',
-        'Tymon\\JWTAuth\\Http\\Parser\\Parser' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Http/Parser/Parser.php',
-        'Tymon\\JWTAuth\\Http\\Parser\\QueryString' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Http/Parser/QueryString.php',
-        'Tymon\\JWTAuth\\Http\\Parser\\RouteParams' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Http/Parser/RouteParams.php',
-        'Tymon\\JWTAuth\\JWT' => __DIR__ . '/..' . '/tymon/jwt-auth/src/JWT.php',
-        'Tymon\\JWTAuth\\JWTAuth' => __DIR__ . '/..' . '/tymon/jwt-auth/src/JWTAuth.php',
-        'Tymon\\JWTAuth\\JWTGuard' => __DIR__ . '/..' . '/tymon/jwt-auth/src/JWTGuard.php',
-        'Tymon\\JWTAuth\\Manager' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Manager.php',
-        'Tymon\\JWTAuth\\Payload' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Payload.php',
-        'Tymon\\JWTAuth\\Providers\\AbstractServiceProvider' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Providers/AbstractServiceProvider.php',
-        'Tymon\\JWTAuth\\Providers\\Auth\\Illuminate' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Providers/Auth/Illuminate.php',
-        'Tymon\\JWTAuth\\Providers\\JWT\\Lcobucci' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Providers/JWT/Lcobucci.php',
-        'Tymon\\JWTAuth\\Providers\\JWT\\Namshi' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Providers/JWT/Namshi.php',
-        'Tymon\\JWTAuth\\Providers\\JWT\\Provider' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Providers/JWT/Provider.php',
-        'Tymon\\JWTAuth\\Providers\\LaravelServiceProvider' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Providers/LaravelServiceProvider.php',
-        'Tymon\\JWTAuth\\Providers\\LumenServiceProvider' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Providers/LumenServiceProvider.php',
-        'Tymon\\JWTAuth\\Providers\\Storage\\Illuminate' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Providers/Storage/Illuminate.php',
-        'Tymon\\JWTAuth\\Support\\CustomClaims' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Support/CustomClaims.php',
-        'Tymon\\JWTAuth\\Support\\RefreshFlow' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Support/RefreshFlow.php',
-        'Tymon\\JWTAuth\\Support\\Utils' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Support/Utils.php',
-        'Tymon\\JWTAuth\\Token' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Token.php',
-        'Tymon\\JWTAuth\\Validators\\PayloadValidator' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Validators/PayloadValidator.php',
-        'Tymon\\JWTAuth\\Validators\\TokenValidator' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Validators/TokenValidator.php',
-        'Tymon\\JWTAuth\\Validators\\Validator' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Validators/Validator.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
@@ -4534,10 +4314,10 @@ class ComposerStaticInite6b62b9730902863de2591fbb276c1b0
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInite6b62b9730902863de2591fbb276c1b0::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInite6b62b9730902863de2591fbb276c1b0::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInite6b62b9730902863de2591fbb276c1b0::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInite6b62b9730902863de2591fbb276c1b0::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit17d1d4371c7764984f7ba37e3ab0de9e::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit17d1d4371c7764984f7ba37e3ab0de9e::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit17d1d4371c7764984f7ba37e3ab0de9e::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit17d1d4371c7764984f7ba37e3ab0de9e::$classMap;
 
         }, null, ClassLoader::class);
     }
